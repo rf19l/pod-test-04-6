@@ -1,5 +1,10 @@
-# Sample code trying to add AEPCore dependency via cocoapods.
+# Setup
+1. Install cocoapods on your machine 'brew install cocoapods'
+2. Add Kotlin Multiplatform Mobile Pluging to Android Studio
+3. (Optional) Add Kdoctor to your machine 'brew install kdoctor'
+4. in the terminal type 'kdoctor' to verify your environment is setup for KMM correctly
 
+# Sample code trying to add AEPCore dependency via cocoapods.
 Currently running into cinterop issues due to a forward enum declaration in the generated AEPCore_Swift.h
 
 initial setup with cocoa pods.
