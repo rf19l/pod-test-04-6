@@ -10,6 +10,9 @@ If the depenedencies are successfully imported we can reference the iOS dependen
 4. in the terminal type 'kdoctor' to verify your environment is setup for KMM correctly
 
 # Sample code trying to add AEPCore dependency via cocoapods.
+<script src="https://gist.github.com/rf19l/ea6b384d674e51dc79df2413c6ed48cd.js"></script>
+
+# Issue
 Currently running into cinterop issues due to a forward enum declaration in the generated AEPCore_Swift.h
 Import the project and run gradly sync to reproduce. 
 
