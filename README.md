@@ -1,7 +1,8 @@
 # Sample project importing IOS Adobe AEP dependencies via cocopods gradle dsl.
-If the depenedencies are successfully imported we can reference the iOS dependencies in shared/iosMain
+If the depenedencies are successfully imported we can reference the iOS dependencies in shared/iosMain. We can see if the dependencies were successfully transformed to kotlin if a KLIB was generated in shared/build/classes/iosArm64/main/cinterop for the given dependency.
     
     ex: See iosMain/Platform.kt 'import cocoapods.AEPRulesEngine'
+
 # Setup
 1. Install cocoapods on your machine 'brew install cocoapods'
 2. Add Kotlin Multiplatform Mobile Pluging to Android Studio
@@ -10,6 +11,7 @@ If the depenedencies are successfully imported we can reference the iOS dependen
 
 # Sample code trying to add AEPCore dependency via cocoapods.
 Currently running into cinterop issues due to a forward enum declaration in the generated AEPCore_Swift.h
+Import the project and run gradly sync to reproduce. 
 
 initial setup with cocoa pods.
 See error for :shared:cinteropAEPCore tasks
