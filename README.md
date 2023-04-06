@@ -1,5 +1,8 @@
 # pod-test-04-6
-Sample code trying to add AEPCore dependency via cocoapods. Currently running into cinterop issues due to a forward enum declaration in the generated AEPCore_Swift.h
+# Sample code trying to add AEPCore dependency via cocoapods.
+
+Currently running into cinterop issues due to a forward enum declaration in the generated AEPCore_Swift.h
+
 initial setup with cocoa pods.
 See error for :shared:cinteropAEPCore tasks
 
