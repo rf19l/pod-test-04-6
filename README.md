@@ -28,3 +28,4 @@ Possible fixes:
 
 2. Pull the AEPCore repo from here https://github.com/adobe/aepsdk-core-ios.git
     Update the header that's causing an issue, generate the xcframework and manually create cinterop tasks for the library
+    https://kotlinlang.org/docs/multiplatform-mobile-ios-dependencies.html#add-a-framework-without-cocoapods
