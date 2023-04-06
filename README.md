@@ -25,7 +25,7 @@ Exception in thread "main" kotlin.NotImplementedError: An operation is not imple
 Issue is in this file:
 shared/build/cocoapods/synthetic/IOS/build/Pods.build/Release-iphoneos/AEPCore.build/Objects-normal/arm64/AEPCore-Swift.h
 
-AEPLogLevel is defined in AEPServices package.
+AEPLogLevel is defined in AEPRulesEngine
 
 Possible fixes:
 1. Create a header file AEPLogLevelFix with the enum definition and add it to the shared module build.gradle.kts pod declaration
