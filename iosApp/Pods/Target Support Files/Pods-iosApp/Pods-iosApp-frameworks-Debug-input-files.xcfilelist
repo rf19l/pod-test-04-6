@@ -1,0 +1,10 @@
+${PODS_ROOT}/Target Support Files/Pods-iosApp/Pods-iosApp-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AEPCore/AEPCore.framework
+${BUILT_PRODUCTS_DIR}/AEPEdge/AEPEdge.framework
+${BUILT_PRODUCTS_DIR}/AEPEdgeIdentity/AEPEdgeIdentity.framework
+${BUILT_PRODUCTS_DIR}/AEPIdentity/AEPIdentity.framework
+${BUILT_PRODUCTS_DIR}/AEPLifecycle/AEPLifecycle.framework
+${BUILT_PRODUCTS_DIR}/AEPRulesEngine/AEPRulesEngine.framework
+${BUILT_PRODUCTS_DIR}/AEPServices/AEPServices.framework
+${BUILT_PRODUCTS_DIR}/AEPSignal/AEPSignal.framework
+${PODS_ROOT}/../../shared/build/cocoapods/framework/shared.framework
