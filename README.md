@@ -1,3 +1,6 @@
+# Sample project importing IOS Adobe AEP dependencies via cocopods gradle dsl.
+If the depenedencies are successfully imported we can reference the iOS dependencies in shared/iosMain
+    ex: See iosMain/Platform.kt 'import cocoapods.AEPRulesEngine'
 # Setup
 1. Install cocoapods on your machine 'brew install cocoapods'
 2. Add Kotlin Multiplatform Mobile Pluging to Android Studio
